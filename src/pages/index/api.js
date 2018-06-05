@@ -1,4 +1,4 @@
-import {get,post} from 'src/utils/request'
+import {get,post} from '@/utils/request'
 
 const api = {
     getDate(obj){ return get(obj)},
