@@ -1,6 +1,8 @@
 <template lang='pug'>
   div#app
     a(href='about.html') {{'to about'}}
+    <el-button size="small">评论</el-button>
+    //- a(href='help.html') {{'to help'}}
     <router-view/>
 </template>
 

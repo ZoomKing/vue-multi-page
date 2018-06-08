@@ -1,8 +1,8 @@
 <template lang='pug'>
     div#about
         Header
-        a(href='about.html') {{'to about1'}}
-        a(href='help.html') {{'to help'}}
+        p {{'help'}} 
+        a(href='')
         Footer
 </template>
 
@@ -22,8 +22,6 @@ export default {
 }
 </script>
 
-<style type="text/css" scoped>
-    a {
-        display: block;
-    }
+<style type="text/css">
+    
 </style>
